@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  width: 39px;
+  height: 39px;
+  min-width: 39px;
+  min-height: 39px;
+}

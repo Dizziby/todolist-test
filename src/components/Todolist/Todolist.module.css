@@ -1,0 +1,32 @@
+.container {
+  background-color: #eae0d6;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.tasks {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.taskList {
+  padding-left: 0;
+  padding-right: 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.title {
+  min-width: 250px;
+  display: flex;
+  justify-content: space-between;
+  color: #3a354d;
+  margin: 0 0 8px;
+}
+
+.button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.container {
+  min-width: 200px;
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  gap: 8px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  padding: 0;
+  min-height: 25px;
+}
+.date {
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0;
+}
